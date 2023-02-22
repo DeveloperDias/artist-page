@@ -6,19 +6,26 @@
   box-sizing: border-box;
 }
 html {
-  background: linear-gradient(45deg, #1a0034, #470a67, #1d0238);
-  background-size: 300% 300%;
+  background: linear-gradient(
+    45deg,
+    #17032b,
+    #1a0034,
+    #470a67,
+    #1d0238,
+    #17032b
+  );
+  background-size: 300% 500%;
   animation: degrade-animado 15s ease infinite;
 }
 @keyframes degrade-animado {
   0% {
-    background-position: 0% 75%;
+    background-position: 0% 50%;
   }
   50% {
     background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 75%;
+    background-position: 0% 50%;
   }
 }
 body {
