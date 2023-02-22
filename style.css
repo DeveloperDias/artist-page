@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
+body {
+  height: 100vh;
+  width: 100%;
   background: linear-gradient(
     45deg,
     #17032b,
@@ -27,10 +29,6 @@ html {
   100% {
     background-position: 0% 50%;
   }
-}
-body {
-  height: 100%;
-  width: 100%;
 }
 a,
 p,
