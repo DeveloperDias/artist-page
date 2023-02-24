@@ -11,12 +11,12 @@ body {
   background: linear-gradient(
     45deg,
     #17032b,
-    #1a0034,
+    #280051,
     #470a67,
-    #1d0238,
+    #280051,
     #17032b
   );
-  background-size: 300% 500%;
+  background-size: 500% 500%;
   animation: degrade-animado 15s ease infinite;
 }
 @keyframes degrade-animado {
@@ -156,29 +156,29 @@ main {
   font-size: 1.25rem;
 }
 .botao {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+.botao a {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.625rem;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
   background: none;
   border: 0.0625rem solid violet;
   padding: 0.625rem 20px;
   border-radius: 1.25rem;
   margin-bottom: 3.125rem;
   margin-top: 1.25rem;
-  transition: 0.4s;
+  transition: 0.2ss;
 }
-.botao:hover {
-  border-color: white;
+.botao a:hover {
   cursor: pointer;
-}
-.botao:hover a {
-  transition: 0.2;
-}
-.botao:hover a {
   font-weight: bold;
-}
-.botao a {
-  font-family: "Roboto", sans-serif;
-  font-size: 0.625rem;
-  letter-spacing: 0.25rem;
-  text-transform: uppercase;
+  border-color: white;
 }
 
 @media (max-width: 520px) {
